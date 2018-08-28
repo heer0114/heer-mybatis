@@ -1,0 +1,7 @@
+heerMybatis: 
+  datasource: 
+    url: 'jdbc:mysql://121.43.183.133:3306/study_mybatis?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true'
+    driver: 'com.mysql.jdbc.Driver'
+    name: study
+    passwd: study
+  xmlMapperScan: 'classpath:sqlmapper'
